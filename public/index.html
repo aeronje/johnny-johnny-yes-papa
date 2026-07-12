@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Johny Johny, Yes Papa?</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <main class="story-card">
+      <header>
+        <p class="eyebrow">Arduino lie detector</p>
+        <h1>Johny Johny,<br><span>yes papa?</span></h1>
+      </header>
+
+      <form id="lyrics-form">
+        <p class="lyric-line question-line">
+          <label for="eating-sugar">Eating sugar?</label>
+          <select id="eating-sugar" name="eatingSugar">
+            <option value="false" selected>No</option>
+            <option value="true">Yes</option>
+          </select>
+          <span class="papa">papa</span>
+        </p>
+
+        <p class="lyric-line question-line">
+          <label for="telling-lies">Telling lies?</label>
+          <select id="telling-lies" name="tellingLies">
+            <option value="false" selected>No</option>
+            <option value="true">Yes</option>
+          </select>
+          <span class="papa">papa</span>
+        </p>
+
+        <div class="final-lines">
+          <p>Open your mouth</p>
+          <p>Ha, ha, ha</p>
+        </div>
+
+        <button type="submit">
+          <span>Check Johny</span>
+          <span aria-hidden="true">→</span>
+        </button>
+      </form>
+
+      <p id="result" role="status" aria-live="polite">
+        <span class="status-light" aria-hidden="true"></span>
+        <span class="status-copy">Choose the answers, then check Johny.</span>
+      </p>
+    </main>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

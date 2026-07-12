@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "projectVersion": "0.1.0",
+  "runtime": {
+    "nodeMajor": 24,
+    "transport": {
+      "firmataIo": "2.3.0",
+      "serialport": "13.0.0"
+    }
+  },
+  "hardware": {
+    "board": "Generic Arduino UNO R3-compatible clone",
+    "microcontroller": "ATmega328P-compatible",
+    "usbBridge": "QinHeng CH340/HL-340",
+    "usbId": "1a86:7523",
+    "serialPort": "/dev/ttyUSB0",
+    "firmware": "StandardFirmata 2.5",
+    "redLed": {
+      "pin": 8,
+      "resistorOhms": 1000
+    },
+    "greenLed": {
+      "pin": 9,
+      "resistorOhms": 1000
+    }
+  }
+}
