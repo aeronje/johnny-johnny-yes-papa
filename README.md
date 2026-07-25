@@ -1,3 +1,7 @@
+# Tech content
+
+[▶ Download Johnny Johnny Final](https://github.com/aeronje/johnny-johnny-yes-papa/raw/refs/heads/main/johnnyJohnnyFinal.mp4)
+
 # Johnny Johnny Yes Papa
 
 Backend-first proof of concept that evaluates two lyric answers and maps the
